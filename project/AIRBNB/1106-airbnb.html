@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>에어비앤비 클론 사이트</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jua&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./1106-airbnb.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="left">
+        <i class="fa-brands fa-airbnb"></i>
+        <span>airbnb</span>
+      </h1>
+      <div class="center">
+        <ul>
+          <li>숙소</li>
+          <li>체험</li> 
+        </ul>
+        <div>
+          <ul>
+            <li>
+              <p>여행지</p>
+              <p>여행지 검색</p>
+            </li>
+            <li>
+              <p>체크인</p>
+              <p>날짜 추가</p>
+            </li>
+            <li>
+              <p>체크아웃</p>
+              <p>날짜 추가</p>
+            </li>
+            <li>
+              <p>여행자</p>
+              <p>게스트 추가</p>
+            </li>
+          </ul>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+      <div class="right">
+        <p>당신의 공간을 에어비앤비 하세요</p>
+        <i class="fa-solid fa-earth-americas"></i>
+        <ul>
+          <li><i class="fa-solid fa-bars"></i></li>
+          <li><i class="fa-solid fa-circle-user"></i></li>
+        </ul>
+      </div>
+    </header>
+    <div class="mobile-menu">
+      <div class="left">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <div class="txt">
+          <p>어디로 여행가세요?</p>
+          <p>어디든지 · 언제든 일주일 · 게스트 추가</p>
+        </div>
+      </div>
+      <div class="right">
+        <i class="fa-solid fa-sliders"></i>
+      </div>
+    </div>
+    <main>
+      <nav>
+        <div class="btn">
+          <div>&lt;</div>
+          <div>&gt;</div>
+        </div>
+        <div class="icon">
+          <div class="item">
+            <i class="fa-solid fa-hotel"></i>
+            <p>호텔</p>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-chess-rook"></i>
+            <p>캐슬</p>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-tree"></i>
+            <p>공원</p>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-car"></i>
+            <p>드라이브</p>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-person-running"></i>
+            <p>운동</p>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-golf-ball-tee"></i>
+            <p>골프장앞</p>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-umbrella-beach"></i>
+            <p>바다앞</p>
+          </div>
+          <div class="item">
+            <i class="fa-brands fa-reddit-alien"></i>
+            <p>숙소</p>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-mountain"></i>
+            <p>등산</p>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-person-shelter"></i>
+            <p>방</p>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-plane"></i>
+            <p>비행기</p>
+          <!-- <div class="item">
+            <i class="fa-solid fa-gifts"></i>
+            <p>파티룸</p>
+          </div> -->
+          <!-- <div class="item">
+            <i class="fa-solid fa-fish"></i>
+            <p>낚시</p>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-moon"></i>
+            <p>달관측</p>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-star"></i>
+            <p>별관측</p>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <p>졸업여행</p>
+          </div> -->
+        </div>
+        <div class="filter">
+          <i class="fa-solid fa-sliders"></i>
+          <span>필터</span>
+        </div>
+      </nav>
+      <div class="card-list">
+        <div class="card">
+          <div class="card-img">
+            <div class="card-title">
+              <!-- <p>게스트 선호</p> -->
+              <p class="view-btn"></p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="card-btn">
+              <p>&lt;</p>
+              <p>&gt;</p>
+            </div>
+            <div class="circle">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="card-txt">
+            <div class="card-txt1">
+              <p>한국 애월읍, 제주시</p>
+              <p>★4.8</p>
+            </div>
+            <p>Gwakji Beach</p>
+            <p>11월20일 ~ 12월5일</p>
+            <p>게스트 한마디 "........"</p>
+            <p>￦183,033 /박</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <div class="card-title">
+              <!-- <p>게스트 선호</p> -->
+              <p class="view-btn"></p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="card-btn">
+              <p>&lt;</p>
+              <p>&gt;</p>
+            </div>
+            <div class="circle">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="card-txt">
+            <div class="card-txt1">
+              <p>한국 애월읍, 제주시</p>
+              <p>★4.8</p>
+            </div>
+            <p>Gwakji Beach</p>
+            <p>11월20일 ~ 12월5일</p>
+            <p>게스트 한마디 "........"</p>
+            <p>￦183,033 /박</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <div class="card-title">
+              <!-- <p>게스트 선호</p> -->
+              <p class="view-btn"></p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="card-btn">
+              <p>&lt;</p>
+              <p>&gt;</p>
+            </div>
+            <div class="circle">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="card-txt">
+            <div class="card-txt1">
+              <p>한국 애월읍, 제주시</p>
+              <p>★4.8</p>
+            </div>
+            <p>Gwakji Beach</p>
+            <p>11월20일 ~ 12월5일</p>
+            <p>게스트 한마디 "........"</p>
+            <p>￦183,033 /박</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <div class="card-title">
+              <!-- <p>게스트 선호</p> -->
+              <p class="view-btn"></p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="card-btn">
+              <p>&lt;</p>
+              <p>&gt;</p>
+            </div>
+            <div class="circle">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="card-txt">
+            <div class="card-txt1">
+              <p>한국 애월읍, 제주시</p>
+              <p>★4.8</p>
+            </div>
+            <p>Gwakji Beach</p>
+            <p>11월20일 ~ 12월5일</p>
+            <p>게스트 한마디 "........"</p>
+            <p>￦183,033 /박</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <div class="card-title">
+              <!-- <p>게스트 선호</p> -->
+              <p class="view-btn"></p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="card-btn">
+              <p>&lt;</p>
+              <p>&gt;</p>
+            </div>
+            <div class="circle">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="card-txt">
+            <div class="card-txt1">
+              <p>한국 애월읍, 제주시</p>
+              <p>★4.8</p>
+            </div>
+            <p>Gwakji Beach</p>
+            <p>11월20일 ~ 12월5일</p>
+            <p>게스트 한마디 "........"</p>
+            <p>￦183,033 /박</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <div class="card-title">
+              <!-- <p>게스트 선호</p> -->
+              <p class="view-btn"></p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="card-btn">
+              <p>&lt;</p>
+              <p>&gt;</p>
+            </div>
+            <div class="circle">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="card-txt">
+            <div class="card-txt1">
+              <p>한국 애월읍, 제주시</p>
+              <p>★4.8</p>
+            </div>
+            <p>Gwakji Beach</p>
+            <p>11월20일 ~ 12월5일</p>
+            <p>게스트 한마디 "........"</p>
+            <p>￦183,033 /박</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <div class="card-title">
+              <!-- <p>게스트 선호</p> -->
+              <p class="view-btn"></p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="card-btn">
+              <p>&lt;</p>
+              <p>&gt;</p>
+            </div>
+            <div class="circle">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="card-txt">
+            <div class="card-txt1">
+              <p>한국 애월읍, 제주시</p>
+              <p>★4.8</p>
+            </div>
+            <p>Gwakji Beach</p>
+            <p>11월20일 ~ 12월5일</p>
+            <p>게스트 한마디 "........"</p>
+            <p>￦183,033 /박</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <div class="card-title">
+              <!-- <p>게스트 선호</p> -->
+              <p class="view-btn"></p>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="card-btn">
+              <p>&lt;</p>
+              <p>&gt;</p>
+            </div>
+            <div class="circle">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="card-txt">
+            <div class="card-txt1">
+              <p>한국 애월읍, 제주시</p>
+              <p>★4.8</p>
+            </div>
+            <p>Gwakji Beach</p>
+            <p>11월20일 ~ 12월5일</p>
+            <p>게스트 한마디 "........"</p>
+            <p>￦183,033 /박</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>해변 바로 앞 숙소 카테고리 계속 검색하기</p>
+      <p>더보기</p>
+    </footer>
+    <script src="./airbnb.js"></script>
+  </body>
+</html>

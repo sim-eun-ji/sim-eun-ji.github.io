@@ -1,0 +1,52 @@
+<!-- 픽셀즈 키 = Oz8dyc1I0Q1CmUtNM39bqy4mjOHpkEOsUPMEANpDKglm2knNap4oSs1a -->
+<!DOCTYPE html>
+<html lang="ko"> 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Momentum clone site</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <main>
+    <div class="start">
+      <h1 class="clock_start"></h1>
+      <h2 class="date_start"></h2>
+      <form id="form">
+        <input class="input" type="text" placeholder="Please enter your name." onfocus="this.placeholder=''">
+        <button class="border">로그인</button>
+      </form>
+    </div>
+    <section class="display">
+      <div class="weather">
+        <p class="place"></p>
+        <p class="temp"></p>
+      </div>
+      <div class="wrap1">
+        <h2 class="clock_now"></h2>
+        <h3 class="date_now"></h3>
+        <h3 class="name"></h3>
+        <button class="logout">로그아웃</button>
+      </div>
+      <div class="wrap2">
+        <div class="quote">
+          <p></p>
+          <p></p>
+        </div>
+        <form class="todo_list">
+          <input type="text" placeholder="할 일을 입력하세요." onfocus="this.placeholder=''">
+          <ul>
+          </ul>
+        </form>
+      </div>
+    </section>
+  </main>
+  
+  <script src="./script/display.js"></script>
+  <script src="./script/quote.js"></script>
+  <script src="./script/bg.js"></script>
+  <script src="./script/todo_list.js"></script>
+  <script src="./script/clock.js"></script>
+  <script src="./script/weather.js"></script>
+</body>
+</html>
