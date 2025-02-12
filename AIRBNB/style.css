@@ -20,6 +20,12 @@ header{
   margin: 20px auto;
   position: relative;
 }
+header > .left > i{
+  color: rgb(255, 56, 92);
+}
+header > .left > span{
+  color: rgb(255, 56, 92);
+}
 header > .center{
   position: absolute;
   top: 0;
