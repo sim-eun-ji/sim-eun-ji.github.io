@@ -211,7 +211,7 @@ nav > .filter{
 main > .card-list{
   display: flex;
   margin-top: 30px;
-  gap: 30px;
+  gap: 20px;
   flex-wrap: wrap;
 }
 main .card{
@@ -224,32 +224,53 @@ main .card > .card-img{
   box-sizing: border-box;
   padding: 10px;
   aspect-ratio: 1;
-  background-image: url(./images/img2.jpg);
+  background-image: url(./images/img01.jpg);
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 main .card:nth-child(2) > .card-img{
-  background-image: url(./images/img3.jpeg);
+  background-image: url(./images/img02.jpg);
 }
 main .card:nth-child(3) > .card-img{
-  background-image: url(./images/img4.jpeg);
+  background-image: url(./images/img03.jpeg);
 }
 main .card:nth-child(4) > .card-img{
-  background-image: url(./images/img5.jpeg);
+  background-image: url(./images/img04.jpeg);
 }
 main .card:nth-child(5) > .card-img{
-  background-image: url(./images/img6.jpg);
+  background-image: url(./images/img05.jpeg);
 }
 main .card:nth-child(6) > .card-img{
-  background-image: url(./images/blue_car.jfif);
+  background-image: url(./images/img06.jpg);
 }
 main .card:nth-child(7) > .card-img{
-  background-image: url(./images/gray_car.jfif);
+  background-image: url(./images/img07.jpg);
 }
 main .card:nth-child(8) > .card-img{
-  background-image: url(./images/house.jpg);
+  background-image: url(./images/img08.jpg);
+}
+main .card:nth-child(9) > .card-img{
+  background-image: url(./images/img09.jpeg);
+}
+main .card:nth-child(10) > .card-img{
+  background-image: url(./images/img10.jpg);
+}
+main .card:nth-child(11) > .card-img{
+  background-image: url(./images/img15.jpeg);
+}
+main .card:nth-child(12) > .card-img{
+  background-image: url(./images/img11.jpg);
+}
+main .card:nth-child(13) > .card-img{
+  background-image: url(./images/img12.jfif);
+}
+main .card:nth-child(14) > .card-img{
+  background-image: url(./images/img13.jpeg);
+}
+main .card:nth-child(15) > .card-img{
+  background-image: url(./images/img14.jpg);
 }
 main .card > .card-img:hover > .card-btn > p{
   cursor: pointer;
